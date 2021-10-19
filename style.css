@@ -538,6 +538,7 @@ input[type="number"] {
     top: 50%;
     left: 50%;
     transform: translate(-50%, 0%);
+    justify-content: space-evenly;
   }
   .thank-you .thank-content p {
     font-size: 18px;
