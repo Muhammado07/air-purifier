@@ -205,16 +205,17 @@ a {
   justify-content: flex-start;
   align-items: baseline;
   flex-direction: column;
+  margin-top: -40%;
 }
 .chiller .details .side-info .info h1 {
   color: var(--third-color);
-  font-size: 45px;
+  font-size: 42px;
 }
 .chiller .details .side-info .info p {
-  font-size: 16px;
+  font-size: 22px;
   line-height: 1.7;
   margin-bottom: 30px;
-  margin-top: 20px;
+  margin-top: 10px;
   color: var(--third-color);
 }
 .chiller .details .side-info .more {
@@ -272,6 +273,9 @@ a {
     grid-template-columns: 1fr;
     grid-row-gap: 30px;
     padding-top: 75px;
+  }
+  .chiller .details .side-info {
+    margin-top: 0;
   }
   .chiller .details .side-info .info h1 {
     font-size: 26px;
@@ -606,9 +610,6 @@ input[type="number"] {
 .ar .nav .info {
   margin-right: auto !important;
   margin-left: 0;
-}
-.ar .chiller .details .side-info .info h1 {
-  font-size: 45px;
 }
 .ar .chiller .details .side-info .more .lean .learn {
   padding-right: 20px;
