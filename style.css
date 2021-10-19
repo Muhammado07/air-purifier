@@ -369,7 +369,7 @@ a {
   width: 75%;
   margin: 0 auto;
   border-radius: 5px;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(5px);
 }
 .side-form .pop-content {
   display: flex;
