@@ -176,6 +176,13 @@ a {
   background: url(img/bg-hero.jpg) center center no-repeat;
   background-size: cover;
 }
+.ar .chiller {
+  background: #fafafa;
+  height: 100vh;
+  position: relative;
+  background: url(img/bg-hero-ar.jpg) center center no-repeat;
+  background-size: cover;
+}
 .chiller::before {
   content: "";
   position: absolute;
@@ -254,6 +261,12 @@ a {
   .chiller {
     height: auto;
     padding-bottom: 30px;
+    background-position-x: 8%;
+  }
+  .ar .chiller {
+    height: auto;
+    padding-bottom: 30px;
+    background-position-x: 93%;
   }
   .chiller .details {
     grid-template-columns: 1fr;
