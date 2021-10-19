@@ -1,6 +1,35 @@
 /* Design By: Mohamed Ali === Al Salem Johnson Controls */
+@font-face {
+  font-family: "Maurea-BoldLf";
+  src: url("fonts/Maurea-BoldLf.otf") format("opentype");
+  font-weight: lighter;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Maurea-Medium";
+  src: url("fonts/Maurea-Medium.otf") format("opentype");
+  font-weight: lighter;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Maurea-Light";
+  src: url("fonts/Maurea-Light.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GE Dinar One Bold";
+  src: url("fonts/GE\ Dinar\ One\ Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+@font-face {
+  font-family: "GE Dinar One Medium";
+  src: url("fonts/GE\ Dinar\ One\ Medium.otf") format("opentype");
+  font-weight: lighter;
+  font-style: normal;
+}
 
 :root {
   --first-color: #00539e;
@@ -25,7 +54,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Maurea-Medium", sans-serif;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -210,7 +239,9 @@ a {
 .chiller .details .side-info .info h1 {
   color: var(--third-color);
   font-size: 42px;
+  font-family: "Maurea-BoldLf";
 }
+
 .chiller .details .side-info .info p {
   font-size: 18px;
   line-height: 1.7;
@@ -362,6 +393,7 @@ a {
   color: var(--third-color);
   text-align: center;
   margin-bottom: 20px;
+  font-family: "Maurea-BoldLf";
 }
 .side-form {
   background: rgba(255, 255, 255, 0.2);
@@ -435,6 +467,10 @@ input[type="number"] {
   width: 100%;
   transition: 0.3s;
   cursor: pointer;
+  font-family: "Maurea-Medium";
+}
+.ar .side-form .pop-content .input-boxs .send {
+  font-family: "GE Dinar One Medium";
 }
 .side-form .pop-content .input-boxs .send:hover {
   opacity: 0.9;
@@ -605,11 +641,15 @@ input[type="number"] {
 =========================================== */
 .ar {
   direction: rtl;
-  font-family: "Tahoma" !important;
+  font-family: "GE Dinar One Bold" !important;
 }
 .ar .nav .info {
   margin-right: auto !important;
   margin-left: 0;
+}
+.ar .chiller .details .side-info .info h1,
+.ar .pop-content .formbox-titles {
+  font-family: "GE Dinar One Bold" !important;
 }
 .ar .chiller .details .side-info .more .lean .learn {
   padding-right: 20px;
@@ -629,6 +669,10 @@ input[type="number"] {
 @media screen and (max-width: 767px) {
   .ar .chiller .details .side-info .info h1 {
     font-size: 24px;
+    font-family: "GE Dinar One Bold" !important;
+  }
+  .ar .chiller .details .side-info .info p {
+    font-family: "GE Dinar One Medium" !important;
   }
   .ar .features h2 {
     text-align: right;
